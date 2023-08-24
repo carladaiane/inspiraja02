@@ -1,0 +1,136 @@
+:root{
+    --color-segundaopc:#f7f7f7;
+}
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+#imagem-fundo{
+    background-image: url("./img/floresta.jpg") ;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+.section1, .section3{
+    background-color: var(--color-segundaopc);
+    padding: 20px;
+    float: left;
+}
+
+
+.title{
+    color: white;
+    padding-top: 10%;
+    font-size: 7rem;
+}
+
+.subtitle{
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 2rem;
+    padding-bottom: 10%;
+}
+
+#acao{
+    text-decoration: none;
+    background-color: white;
+    font-size: 1.5rem;
+    color: black;
+    padding: .7rem;
+    border-radius: .5rem;
+
+    &:hover{
+        transition-duration: .9s;
+        background-color: black;
+        color: white;
+    }
+}
+
+.icone{
+    width: 60px;
+}
+
+p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: justify;
+}
+
+h3, h4{
+    padding: 2rem;
+}
+
+.video{
+    margin-top: 3rem;
+
+}
+
+.icone{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: .5rem;
+  /*   box-shadow: 0 1px 12px 8px black; */
+    object-fit: cover;
+    width: 4rem;
+    
+
+    &:hover{
+        transition-duration: .9s;
+        background-color: rgb(180, 175, 175);
+    }
+}
+
+.img-cat{
+    border-radius: .5rem;
+    overflow: hidden;
+  /*   box-shadow: 0 1px 12px 8px black; */
+    object-fit: cover;
+    width: 40%;
+}
+
+li{
+    list-style:none
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    text-align: center;
+}
+
+.tres{
+    width: 15%;
+}
+
+.img-eco{
+    border-radius: .5rem;
+    overflow: hidden;
+    object-fit: cover;
+    width: 80%;
+}
+
+.pai{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.colunaimg{
+    border-radius: .5rem;
+    overflow: hidden;
+  /*   box-shadow: 0 1px 12px 8px black; */
+    object-fit: cover;
+    width: 2%;
+}
+
+.motivo{
+    padding: 2rem;
+}
